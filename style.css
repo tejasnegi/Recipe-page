@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: rgb(241, 230, 215);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  color: rgb(93, 93, 93);
+}
+
+/* Headings */
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+h2 {
+  color: rgb(140, 99, 105);
+}
+
+/* Card Styles */
+.card {
+  width: 570px;
+  margin: 50px;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 520px;
+  border-radius: 10px;
+}
+
+/* Card Heading */
+.card-heading h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(54, 54, 54);
+  margin-top: 18px;
+}
+
+.card-heading p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+/* Preparation Card */
+.card-preparation {
+  margin-top: 24px;
+  width: 520px;
+  padding: 24px;
+  border-radius: 10px;
+  background-color: rgba(255, 244, 246, 0.8);
+}
+
+.card-preparation h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: rgb(167, 93, 126);
+}
+
+.card-preparation ul {
+  margin-left: 18px;
+}
+
+.card-preparation ul li {
+  padding: 5px 0 5px 16px;
+  font-size: 13px;
+  color: rgb(178, 105, 138);
+}
+
+.card-preparation ul li span {
+  color: rgb(93, 93, 93);
+  font-weight: 400; /* Ensures only spans within preparation list stay regular weight */
+}
+
+/* Card Content */
+.card-content {
+  margin-top: 24px;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card-content ul,
+.card-content ol {
+  padding: 18px;
+}
+
+.card-content li {
+  padding: 5px 0 5px 16px;
+  font-size: 13px;
+  color: rgb(140, 99, 105);
+}
+
+.card-content li span {
+  color: rgb(93, 93, 93);
+  font-weight: 400; /* Ensures only spans within instructions remain regular weight */
+}
+
+/* Ordered List Styling */
+ol li {
+  font-weight: bold;
+}
+
+/* Nutrition */
+.card-content_nutrition > p {
+  font-size: 13px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.card-content_nutrition-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 300px;
+  margin-left: 24px;
+  font-size: 13px;
+}
+
+.card-content_nutrition > div > hr {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.card-content_nutrition-details > p > span {
+  position: relative;
+  left: 0;
+  color: rgb(140, 99, 105);
+  font-weight: bold; /* Only spans in nutrition details are bold */
+}
+
+.card-content_nutrition {
+  margin-bottom: 15px;
+}
+
+/* General Divider */
+hr {
+  border: 0.5px solid rgb(214, 214, 214);
+  margin: 14px 0 24px;
+}
